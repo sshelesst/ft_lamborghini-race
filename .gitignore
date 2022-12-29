@@ -27,4 +27,4 @@ prisma/*.db-journal
 
 # загружаемые файлы
 
-assets/
+# assets/
