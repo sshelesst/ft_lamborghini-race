@@ -1,8 +1,32 @@
+@import './_variables.scss';
+@import './_fonts.scss';
+
 * {
   all: unset;
   display: revert;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 li {
   list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $color-black;
+  font-family: 'Roboto Condenced';
+  font-weight: 400;
+  font-size: 14px;
 }

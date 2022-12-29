@@ -6,5 +6,26 @@ html(lang="en")
     link(rel="stylesheet", href="./styles/index.css")
     title Index 
   body 
+    header.header
+      .container
+        nav.navigation
+          ul.navigation__list.navigation__list-left
+            li.navigation__item
+              a.navigation__link(href="#") О гонке
+            li.navigation__item
+              a.navigation__link(href="#") Трек
+            li.navigation__item
+              a.navigation__link(href="#") Lamborghini Super trofeo
+            li.navigation__item
+              a.navigation__link(href="#") Новости
+          a.navigation__logo(href="#")
+            img.navigation__logo-image(src="./images/logo.svg", alt="Логотип")
+          ul.navigation__list.navigation__list-right
+            li.navigation__item
+              a.navigation__link(href="#") Купить билеты
+            li.navigation__item
+              a.navigation__link(href="") Смотреть онлайн
+            li.navigation__item
+              a.navigation__link(href="") Контакты
               
   script(src="./scripts/index.js")              

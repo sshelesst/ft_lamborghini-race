@@ -1,2 +1,11 @@
-:root {
-}
+$color-black: #040404;
+$color-grey: #363636;
+$color-gold: #9f6b08;
+$color-light-gold: #f9ce5c;
+$color-white: #ffffff;
+
+$gradient-light: linear-gradient(
+  180deg,
+  #d8d4ca 0%,
+  rgba(217, 217, 217, 0) 100%
+);
